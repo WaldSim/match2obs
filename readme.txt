@@ -51,8 +51,8 @@ windrosen.py: Wind roses for observation, matching(GRAL, GRAMM) for all stations
 	winds_cat1476_final.pkl: GRAL catalog for 1476 entries (entire domain)
 	gff1008_final.pkl: GRAL catalog for 1008 entries (only all stations)
 	gff1476_final.pkl: GRAL catalog for 1476 entries (only all stations)
+you can download the files: wget -c https://heibox.uni-heidelberg.de/d/843f046b85e646b1a1c7/
 
+gg_post-main: GRAMM, GRAL to netCDF
 
-
-gg_post-main: GRAMM, GRAL to netCDF,
 environmental.yml: built environment with "conda env create -f environmental.yml"
