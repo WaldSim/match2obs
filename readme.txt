@@ -19,10 +19,7 @@ match-to-observation.py: performs matching, generates time series plot, calculat
 data:
 historischeDaten: used historical data of Berlinerstraße, Königstuhl, Drei Eichen, Geo Institut, Wieblingen West
 messdaten/utc: Measurement data used, created by: readobslubw.py, readobsnils.py, readobsdigi.py, readobsiup.py
-winds_cat1008_final.pkl: GRAL catalog for 1008 entries
-wind_cat1476_final.pkl: GRAL catalog for 1476 entries
-winds_cat1008_final.pkl:
-winds_cat1476_final.pkl:
+
 
 plots and evaluation:
 
@@ -49,7 +46,13 @@ rmse_stations_best.py: Calculation of min, max, mean RMSEs vs. number of station
 dailycycle.py: Daily cycle Observed wind speed, simulated wind speed for all stations
 windrosen.py: Wind roses for observation, matching(GRAL, GRAMM) for all stations
 
-.gff files stored: https://heibox.uni-heidelberg.de/d/843f046b85e646b1a1c7/
+.pkl files stored: https://heibox.uni-heidelberg.de/d/843f046b85e646b1a1c7/
+	winds_cat1008_final.pkl: GRAL catalog for 1008 entries
+	winds_cat1476_final.pkl: GRAL catalog for 1476 entries
+	gff1008_final.pkl: GRAL windfields for 1008 entries for all stations
+	gff1476_final.pkl: GRAL windfields for 1476 entries for all stations
+
+
 
 gg_post-main: GRAMM, GRAL to netCDF,
 environmental.yml: built environment with "conda env create -f environmental.yml"
