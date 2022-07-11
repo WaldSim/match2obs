@@ -49,6 +49,7 @@ rmse_stations_best.py: Calculation of min, max, mean RMSEs vs. number of station
 dailycycle.py: Daily cycle Observed wind speed, simulated wind speed for all stations
 windrosen.py: Wind roses for observation, matching(GRAL, GRAMM) for all stations
 
+.gff files stored: https://heibox.uni-heidelberg.de/d/843f046b85e646b1a1c7/
 
 gg_post-main: GRAMM, GRAL to netCDF,
 environmental.yml: built environment with "conda env create -f environmental.yml"
