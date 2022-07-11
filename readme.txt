@@ -16,7 +16,7 @@ match-to-observation:
 match-to-observation.py: performs matching, generates time series plot, calculation of RMSE, MB
 
 
-data:
+data (on request):
 historischeDaten: used historical data of Berlinerstraße, Königstuhl, Drei Eichen, Geo Institut, Wieblingen West
 messdaten/utc: Measurement data used, created by: readobslubw.py, readobsnils.py, readobsdigi.py, readobsiup.py
 
@@ -53,6 +53,6 @@ windrosen.py: Wind roses for observation, matching(GRAL, GRAMM) for all stations
 	gff1476_final.pkl: GRAL catalog for 1476 entries (only all stations)
 you can download the files: wget -c https://heibox.uni-heidelberg.de/d/843f046b85e646b1a1c7/
 
-gg_post-main: GRAMM, GRAL to netCDF
+
 
 environmental.yml: built environment with "conda env create -f environmental.yml"
