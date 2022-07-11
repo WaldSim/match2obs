@@ -47,10 +47,10 @@ dailycycle.py: Daily cycle Observed wind speed, simulated wind speed for all sta
 windrosen.py: Wind roses for observation, matching(GRAL, GRAMM) for all stations
 
 .pkl files stored: https://heibox.uni-heidelberg.de/d/843f046b85e646b1a1c7/
-	winds_cat1008_final.pkl: GRAL catalog for 1008 entries
-	winds_cat1476_final.pkl: GRAL catalog for 1476 entries
-	gff1008_final.pkl: GRAL windfields for 1008 entries for all stations
-	gff1476_final.pkl: GRAL windfields for 1476 entries for all stations
+	winds_cat1008_final.pkl: GRAL catalog for 1008 entries (entire domain)
+	winds_cat1476_final.pkl: GRAL catalog for 1476 entries (entire domain)
+	gff1008_final.pkl: GRAL catalog for 1008 entries (only all stations)
+	gff1476_final.pkl: GRAL catalog for 1476 entries (only all stations)
 
 
 
